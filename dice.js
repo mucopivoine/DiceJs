@@ -1,12 +1,12 @@
 const buttonEl = document.getElementById ("roll-button");
-const diceEl = document.getElementById("dice");
+const diceE1 = document.getElementById("dice");
 const rollHistoryEl = document.getElementById("roll-history");
 let historyList = [];
 function rollDice(){
-   const rollResult = Math.floor(Math.random() * 6) + 1;
-  const diceFace = getDiceFace(rollResult);
-diceEl.innerHTML= diceFace;
-historyList.push(rollResult);
+   const rollRandom = Math.floor(Math.random() * 6) + 1;
+  const diceFace = getDiceFace(rollRandom);
+diceE1.innerHTML= diceFace;
+historyList.push(rollRandom);
 updateRollHistory();
 }
 function updateRollHistory(){
@@ -37,9 +37,9 @@ function updateRollHistory(){
  }
   }
 buttonEl.addEventListener("click" , ()=>{
-    diceEl.classList.add("roll-animation");
+    diceE1.classList.add("roll-animation");
     setTimeout(()=>{
-        diceEl.classList.remove("roll-animation");
+        diceE1.classList.remove("roll-animation");
     
     rollDice()
 },1000);

@@ -10,13 +10,11 @@ h1{
     /* font-size: 30px; */
     font-size:35px;
     margin-top:2rem;
-    /* max-width 600px; */
     padding-top:40px
 
 }
 .dice{
     /* font-size: 60px; */
-    /* margin:5px; */
     font-size:90px;
     margin:5px;
     animation-duration:1s;
@@ -36,7 +34,6 @@ h1{
 }
 button{
      background-color: rgb(89, 89, 244);
-     /* background-color: #47a5c4; */
     color:white;
     font-size:25px;
     padding:1rem  2rem;
@@ -47,7 +44,6 @@ button{
 }
 button:hover{
     background-color: rgb(117, 117, 225);
-    /* background-color: #2e8baf; */
 }
 ul{
     list-style:none;
@@ -62,16 +58,13 @@ ul{
 li{
     font-size:20px;
     padding:.5rem;
-    /* padding:0px; */
      margin:.5rem;
-     /* margin:20px;   */
     background-color:rgb(250, 248, 248);
     box-shadow:1px 2px 2px rgb(127, 118, 118);
     display:flex;
     justify-content:space-between;
     align-items: center;
     border-radius: 7px;
-    /* width:100px */
     height:45px
 }
 li span{
